@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow
 from tensorflow.keras.models import load_model
 
-model = load_model('model.pb')
+model = load_model('model.etlt')
 
 page_bg_img ="""
 <style>
