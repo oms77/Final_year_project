@@ -3,7 +3,7 @@ import speech_recognition as sr
 import tensorflow
 from tensorflow.keras.models import load_model
 
-model = load_model('model.pb')
+model = load_model('model.etlt')
 
 css_code = """
 .gradio-container {background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMudvUx27TvoNNHRxaswur9Z33zRqzLrmIHA&usqp=CAU) no-repeat center center fixed; background-size: cover;}
